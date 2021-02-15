@@ -1,0 +1,39 @@
+{
+  "name": "omidsalari/laravel-stop-limit-order",
+  "description": "This package is for registering stop limit orders",
+  "keywords": [
+    "laravel",
+    "laravel-package",
+    "PHP",
+    "laravel5",
+    "stop-limit-order",
+    "wallex"
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "OmidReza Salari",
+      "email": "omidsalari995@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "StopLimit\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "StopLimitTest\\": "tests/"
+  },
+  "require": {
+    "php-amqplib/php-amqplib": "^2.12",
+    "predis/predis": "^1.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "StopLimit\\Providers\\StopLimitServiceProvider"
+      ]
+    }
+  }
+}
