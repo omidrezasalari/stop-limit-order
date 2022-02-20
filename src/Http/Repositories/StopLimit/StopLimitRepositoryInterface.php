@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Http\Repositories\StopLimit;
+namespace Omidrezasalari\StopLimit\Http\Repositories\StopLimit;
 
 
 interface StopLimitRepositoryInterface

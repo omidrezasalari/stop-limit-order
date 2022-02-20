@@ -1,8 +1,8 @@
 <?php
 
-namespace StopLimit\Classes\Facades;
+namespace Omidrezasalari\StopLimit\Classes\Facades;
 
-use StopLimit\Interfaces\MessageInterface;
+use Omidrezasalari\StopLimit\Interfaces\MessageInterface;
 
 class ReceivedQueueMessage
 {

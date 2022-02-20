@@ -1,9 +1,9 @@
 <?php
 
-namespace StopLimit\Console\Commands;
+namespace Omidrezasalari\StopLimit\Console\Commands;
 
 use Illuminate\Console\Command;
-use StopLimit\Facades\GetInstantPriceFacade;
+use Omidrezasalari\StopLimit\Facades\GetInstantPriceFacade;
 
 class GetInstantPrice extends Command
 {

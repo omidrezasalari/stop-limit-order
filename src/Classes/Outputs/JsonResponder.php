@@ -1,9 +1,9 @@
 <?php
 
-namespace StopLimit\Classes\Outputs;
+namespace Omidrezasalari\StopLimit\Classes\Outputs;
 
 use Illuminate\Http\Response;
-use StopLimit\Interfaces\ResponderInterface;
+use Omidrezasalari\StopLimit\Interfaces\ResponderInterface;
 
 class JsonResponder implements ResponderInterface
 {

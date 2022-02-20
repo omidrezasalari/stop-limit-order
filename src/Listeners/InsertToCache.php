@@ -1,11 +1,11 @@
 <?php
 
-namespace StopLimit\Listeners;
+namespace Omidrezasalari\StopLimit\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use StopLimit\Events\StopLimitCreated;
-use StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
+use Omidrezasalari\StopLimit\Events\StopLimitCreated;
+use Omidrezasalari\StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
 
 class InsertToCache
 {

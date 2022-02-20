@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Classes\Facades;
+namespace Omidrezasalari\StopLimit\Classes\Facades;
 
 use Illuminate\Support\Facades\Auth;
 

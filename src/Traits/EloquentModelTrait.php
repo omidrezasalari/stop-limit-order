@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Traits;
+namespace Omidrezasalari\StopLimit\Traits;
 
 trait EloquentModelTrait
 {

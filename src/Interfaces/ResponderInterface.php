@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Interfaces;
+namespace Omidrezasalari\StopLimit\Interfaces;
 
 interface ResponderInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace StopLimit\Classes\Facades;
+namespace Omidrezasalari\StopLimit\Classes\Facades;
 
 use Illuminate\Support\Facades\Event;
-use StopLimit\Events\StopLimitCreated;
-use StopLimit\Models\StopLimit;
+use Omidrezasalari\StopLimit\Events\StopLimitCreated;
+use Omidrezasalari\StopLimit\Models\StopLimit;
 
 class DefaultStopLimitEvent
 {

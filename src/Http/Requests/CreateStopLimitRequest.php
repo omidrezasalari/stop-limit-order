@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Http\Requests;
+namespace Omidrezasalari\StopLimit\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

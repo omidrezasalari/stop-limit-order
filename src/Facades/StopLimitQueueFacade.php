@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Facades;
+namespace Omidrezasalari\StopLimit\Facades;
 
 /**
  * @method static dispatch(array $orderIds,bool $status)

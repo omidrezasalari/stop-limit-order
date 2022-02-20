@@ -1,7 +1,7 @@
 <?php
 
-use StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
-use StopLimit\Models\StopLimit;
+use Omidrezasalari\StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
+use Omidrezasalari\StopLimit\Models\StopLimit;
 use Faker\Generator as Faker;
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */

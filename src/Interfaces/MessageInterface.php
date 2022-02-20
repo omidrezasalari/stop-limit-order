@@ -1,7 +1,7 @@
 <?php
 
 
-namespace StopLimit\Interfaces;
+namespace Omidrezasalari\StopLimit\Interfaces;
 
 
 use PhpAmqpLib\Channel\AMQPChannel;

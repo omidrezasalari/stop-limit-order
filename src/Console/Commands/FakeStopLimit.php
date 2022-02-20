@@ -1,9 +1,9 @@
 <?php
 
-namespace StopLimit\Console\Commands;
+namespace Omidrezasalari\StopLimit\Console\Commands;
 
 use Illuminate\Console\Command;
-use StopLimit\Models\StopLimit;
+use Omidrezasalari\StopLimit\Models\StopLimit;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

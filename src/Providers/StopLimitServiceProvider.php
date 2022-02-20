@@ -1,32 +1,32 @@
 <?php
 
-namespace StopLimit\Providers;
+namespace Omidrezasalari\StopLimit\Providers;
 
 use Illuminate\Database\Eloquent\Factory;
-use StopLimit\Classes\Facades\DefaultStopLimitEvent;
-use StopLimit\Classes\Facades\DefaultStopLimitQueue;
-use StopLimit\Classes\Message;
-use StopLimit\Console\Commands\FakeStopLimit;
-use StopLimit\Console\Commands\GetInstantPrice;
-use StopLimit\Console\Commands\ReceivedQueueMessages;
+use Omidrezasalari\StopLimit\Classes\Facades\DefaultStopLimitEvent;
+use Omidrezasalari\StopLimit\Classes\Facades\DefaultStopLimitQueue;
+use Omidrezasalari\StopLimit\Classes\Message;
+use Omidrezasalari\StopLimit\Console\Commands\FakeStopLimit;
+use Omidrezasalari\StopLimit\Console\Commands\GetInstantPrice;
+use Omidrezasalari\StopLimit\Console\Commands\ReceivedQueueMessages;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use StopLimit\Classes\Outputs\JsonResponder;
-use StopLimit\Console\Commands\CheckThenInsert;
-//use StopLimit\Exceptions\StopLimitExceptionHandler;
+use Omidrezasalari\StopLimit\Classes\Outputs\JsonResponder;
+use Omidrezasalari\StopLimit\Console\Commands\CheckThenInsert;
+//use Omidrezasalari\StopLimit\Exceptions\StopLimitExceptionHandler;
 
-use StopLimit\Facades\GetInstantPriceFacade;
-use StopLimit\Facades\ReceivedQueueMessagesFacade;
-use StopLimit\Facades\StopLimitProcessFacade;
-use StopLimit\Facades\AuthFacade;
-use StopLimit\Facades\StopLimitEventFacade;
-use StopLimit\Facades\StopLimitQueueFacade;
-use StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
-use StopLimit\Http\Repositories\Cache\RedisCacheRepository;
-use StopLimit\Http\Repositories\StopLimit\EloquentStopLimitRepository;
-use StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
-use StopLimit\Interfaces\MessageInterface;
-use StopLimit\Interfaces\ResponderInterface;
+use Omidrezasalari\StopLimit\Facades\GetInstantPriceFacade;
+use Omidrezasalari\StopLimit\Facades\ReceivedQueueMessagesFacade;
+use Omidrezasalari\StopLimit\Facades\StopLimitProcessFacade;
+use Omidrezasalari\StopLimit\Facades\AuthFacade;
+use Omidrezasalari\StopLimit\Facades\StopLimitEventFacade;
+use Omidrezasalari\StopLimit\Facades\StopLimitQueueFacade;
+use Omidrezasalari\StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
+use Omidrezasalari\StopLimit\Http\Repositories\Cache\RedisCacheRepository;
+use Omidrezasalari\StopLimit\Http\Repositories\StopLimit\EloquentStopLimitRepository;
+use Omidrezasalari\StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
+use Omidrezasalari\StopLimit\Interfaces\MessageInterface;
+use Omidrezasalari\StopLimit\Interfaces\ResponderInterface;
 
 //use Illuminate\Contracts\Debug\ExceptionHandler;
 

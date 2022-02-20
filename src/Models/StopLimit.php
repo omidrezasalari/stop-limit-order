@@ -1,9 +1,9 @@
 <?php
 
-namespace StopLimit\Models;
+namespace Omidrezasalari\StopLimit\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use StopLimit\Traits\EloquentModelTrait;
+use Omidrezasalari\StopLimit\Traits\EloquentModelTrait;
 
 class StopLimit extends Model
 {

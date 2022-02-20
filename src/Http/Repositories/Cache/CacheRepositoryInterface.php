@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Http\Repositories\Cache;
+namespace Omidrezasalari\StopLimit\Http\Repositories\Cache;
 
 interface CacheRepositoryInterface
 {

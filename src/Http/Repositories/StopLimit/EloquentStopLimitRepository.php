@@ -1,11 +1,11 @@
 <?php
 
-namespace StopLimit\Http\Repositories\StopLimit;
+namespace Omidrezasalari\StopLimit\Http\Repositories\StopLimit;
 
 use Carbon\Carbon;
 use Illuminate\Support\Str;
-use StopLimit\Facades\AuthFacade;
-use StopLimit\Models\StopLimit;
+use Omidrezasalari\StopLimit\Facades\AuthFacade;
+use Omidrezasalari\StopLimit\Models\StopLimit;
 
 class EloquentStopLimitRepository implements StopLimitRepositoryInterface
 {

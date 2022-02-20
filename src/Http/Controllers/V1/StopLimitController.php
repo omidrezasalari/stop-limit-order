@@ -1,12 +1,12 @@
 <?php
 
-namespace StopLimit\Http\Controllers\V1;
+namespace Omidrezasalari\StopLimit\Http\Controllers\V1;
 
 use App\Http\Controllers\Controller;
-use StopLimit\Facades\StopLimitEventFacade;
-use StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
-use StopLimit\Http\Requests\CreateStopLimitRequest;
-use StopLimit\Interfaces\ResponderInterface;
+use Omidrezasalari\StopLimit\Facades\StopLimitEventFacade;
+use Omidrezasalari\StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
+use Omidrezasalari\StopLimit\Http\Requests\CreateStopLimitRequest;
+use Omidrezasalari\StopLimit\Interfaces\ResponderInterface;
 
 class StopLimitController extends Controller
 {

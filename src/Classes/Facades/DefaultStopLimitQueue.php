@@ -1,8 +1,8 @@
 <?php
 
-namespace StopLimit\Classes\Facades;
+namespace Omidrezasalari\StopLimit\Classes\Facades;
 
-use StopLimit\Jobs\UpdateOrder;
+use Omidrezasalari\StopLimit\Jobs\UpdateOrder;
 
 class DefaultStopLimitQueue
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Exceptions;
+namespace Omidrezasalari\StopLimit\Exceptions;
 
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;

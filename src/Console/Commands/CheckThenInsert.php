@@ -1,11 +1,11 @@
 <?php
 
-namespace StopLimit\Console\Commands;
+namespace Omidrezasalari\StopLimit\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use StopLimit\Facades\StopLimitProcessFacade;
-use StopLimit\Facades\StopLimitQueueFacade;
+use Omidrezasalari\StopLimit\Facades\StopLimitProcessFacade;
+use Omidrezasalari\StopLimit\Facades\StopLimitQueueFacade;
 
 
 class CheckThenInsert extends Command

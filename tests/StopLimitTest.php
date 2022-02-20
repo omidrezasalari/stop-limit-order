@@ -1,14 +1,11 @@
 <?php
 
-namespace StopLimitTest;
+namespace Omidrezasalari\StopLimitTest;
 
 use Illuminate\Support\Str;
 use Login\Entities\User;
-use Illuminate\Database\Eloquent\Model;
-use StopLimit\Events\StopLimitCreated;
-use StopLimit\Facades\StopLimitEventFacade;
-use StopLimit\Models\StopLimit;
-use Tests\TestCase;
+use Omidrezasalari\StopLimit\Facades\StopLimitEventFacade;
+use Omidrezasalari\StopLimit\Models\StopLimit;
 use Mockery;
 
 class StopLimitTest extends TestCase
@@ -71,8 +68,10 @@ class StopLimitTest extends TestCase
                 'client_order_id' => Str::uuid()
             ]));
 
-        $this->app->instance('StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface',
-            $this->stopLimitMock);
+        $this->app->instance(
+            'StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface',
+            $this->stopLimitMock
+        );
 
         StopLimitEventFacade::shouldReceive('dispatch')->with($order)->once();
 
@@ -84,8 +83,5 @@ class StopLimitTest extends TestCase
             ->json('POST', '/api/v1/stop-limits', $requests);
 
         $this->assertTrue($res->content() == "hello");
-
     }
-
-
 }

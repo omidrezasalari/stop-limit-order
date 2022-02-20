@@ -1,10 +1,10 @@
 <?php
 
-namespace StopLimit\Http\Repositories\Cache;
+namespace Omidrezasalari\StopLimit\Http\Repositories\Cache;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Cache;
-use StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
+use Omidrezasalari\StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
 
 class RedisCacheRepository implements CacheRepositoryInterface
 {

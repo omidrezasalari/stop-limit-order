@@ -1,13 +1,12 @@
 <?php
 
 
-namespace StopLimit\Classes\Facades;
+namespace Omidrezasalari\StopLimit\Classes\Facades;
 
 use Illuminate\Support\Arr;
-use Monitor\Facades\LogQueueFacade;
-use StopLimit\Facades\StopLimitQueueFacade;
-use StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
-use StopLimit\Interfaces\MessageInterface;
+use Omidrezasalari\StopLimit\Facades\StopLimitQueueFacade;
+use Omidrezasalari\StopLimit\Http\Repositories\Cache\CacheRepositoryInterface;
+use Omidrezasalari\StopLimit\Interfaces\MessageInterface;
 
 class EloquentProcess
 {

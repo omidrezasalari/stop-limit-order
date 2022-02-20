@@ -1,11 +1,11 @@
 <?php
 
-namespace StopLimit\Classes;
+namespace Omidrezasalari\StopLimit\Classes;
 
 use PhpAmqpLib\Channel\AMQPChannel;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
-use StopLimit\Interfaces\MessageInterface;
+use Omidrezasalari\StopLimit\Interfaces\MessageInterface;
 
 class Message implements MessageInterface
 {

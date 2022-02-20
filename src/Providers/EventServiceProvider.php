@@ -1,10 +1,10 @@
 <?php
 
-namespace StopLimit\Providers;
+namespace Omidrezasalari\StopLimit\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use StopLimit\Events\StopLimitCreated;
-use StopLimit\Listeners\InsertToCache;
+use Omidrezasalari\StopLimit\Events\StopLimitCreated;
+use Omidrezasalari\StopLimit\Listeners\InsertToCache;
 
 class EventServiceProvider extends ServiceProvider
 {

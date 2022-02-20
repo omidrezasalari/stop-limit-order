@@ -1,6 +1,6 @@
 <?php
 
-namespace StopLimit\Jobs;
+namespace Omidrezasalari\StopLimit\Jobs;
 
 
 use Illuminate\Bus\Queueable;
@@ -8,7 +8,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
+use Omidrezasalari\StopLimit\Http\Repositories\StopLimit\StopLimitRepositoryInterface;
 
 class UpdateOrder implements ShouldQueue
 {
