@@ -1,4 +1,6 @@
-# Stop Limit Order
+<h1 align="center">Stop-limit order 🎯</h1>
+
+
 ## The process of implementing the Stop Limit Order project is as follows:
 - First, when the user registers the stop order limit, the stop price
 It is registered in the relevant cache based on the type of order
@@ -22,7 +24,7 @@ php artisan check:insert {instantPrice}
 ```sh
 php artisan check:insert {instantPrice}
 ```
-###### The process of implementing the Stop Limit Order project is as follows:
+##### The process of implementing the Stop Limit Order project is as follows:
 - Receive the content that users have registered in the purchase and sale order caches
 - Compare the prices of stop orders registered by users with the current price based on the rules of buying and selling
 - Send fetched orders to your respective queues
